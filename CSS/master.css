@@ -1,0 +1,76 @@
+.body {
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+.high {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+.medium {
+    font-weight: 700;
+}
+.low {
+    font-weight: 500;
+}
+
+.card {
+    width: 28%;
+    margin: 5% auto;
+    border-radius: 1rem;
+}
+.card-img-top {
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+.card-body {
+    text-align: center;
+}
+.Title{
+    font-size: 20px;
+}
+.subtext {
+    color: hsl(224, 23%, 55%);
+    font-size: small;
+    width: 65%;
+    margin: 10% auto;
+}
+
+.pricing {
+    width: 85%;
+    margin: 5% auto;
+    border-radius: 1rem;
+    background-color: hsl(225, 100%, 98%);
+}
+
+.col-2 img {
+    text-align: left;
+    margin: 1px 1px;
+    position: relative;
+    top: 8%;
+    
+}
+.col-7 p {
+    text-align: left;
+    font-size: 13px;
+}
+.col-3 a {
+    color: hsl(245, 75%, 52%);
+    text-align: right;
+    font-size: 12px;
+    position: relative;
+    top: 23%;
+    
+}
+
+.submit {
+    padding: 4%;
+}
+
+.button {
+    color: white;
+    margin: 6% 1%;
+    font-style: normal;
+    background-color: hsl(245, 75%, 52%);
+    border-style: none;
+    border-radius: 0.5rem;
+}
