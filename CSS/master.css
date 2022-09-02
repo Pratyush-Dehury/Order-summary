@@ -1,5 +1,6 @@
 .body {
     font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 98%);
 
 }
 .high {
@@ -42,35 +43,65 @@
     background-color: hsl(225, 100%, 98%);
 }
 
-.col-2 img {
-    text-align: left;
-    margin: 1px 1px;
-    position: relative;
-    top: 8%;
-    
+.col-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .col-7 p {
     text-align: left;
     font-size: 13px;
 }
-.col-3 a {
+.col-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col-3 a{
     color: hsl(245, 75%, 52%);
-    text-align: right;
     font-size: 12px;
-    position: relative;
-    top: 23%;
-    
+}
+
+.col-3 a:active{
+    color:hsla(255, 75%, 52%, 0.985) ;
 }
 
 .submit {
     padding: 4%;
 }
 
-.button {
+.button{
     color: white;
-    margin: 6% 1%;
-    font-style: normal;
+    height: 33px;
+    width: 84%;
+    margin: 1% auto;
     background-color: hsl(245, 75%, 52%);
+    font-size: 13px;
+    font-weight: 700;
     border-style: none;
     border-radius: 0.5rem;
+    overflow: hidden;
 }
+.button:active{
+    background-color: hsla(255, 75%, 52%, 0.985);
+}
+    
+.cancel{
+    margin-top: 3%;
+    color:hsl(224, 23%, 55%); 
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+}
+.cancel:active{
+    color:hsl(223, 47%, 23%) ;
+}
+
+@media screen and (max-width:413px){
+    .card{
+        width:85%;
+    }
+}
+
+
